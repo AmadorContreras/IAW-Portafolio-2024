@@ -1,0 +1,43 @@
+@import url('../../Styles/variables.css');
+
+
+:root {
+
+}
+
+#inicio{
+    width: calc(100wv -100%);
+    height: calc(100hv -100%);
+    margin: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.301)),url('/public/img/fondo-inicio2.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0px 7px 45px -15px rgba(0,0,0,0.65); 
+}
+.inicioContenedor{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 33vh;
+    filter: drop-shadow(0px 0px 13px #000000);
+}
+
+.inicioContenedor h1, .inicioContenedor h2{
+    font-family: var(--fuente-inicio-cursiva);
+    font-size: 7rem;
+    margin: 10px;
+}
+.inicioContenedor h2 span{
+    color: var(--lima-400);
+}
+
+.inicioContenedor p{
+    width: 75%;
+    margin: auto;
+    font-size: 2rem;
+    margin-top: 2rem;
+    
+}

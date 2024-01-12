@@ -1,9 +1,11 @@
+import Logo from './Logo'
+
 const Header = () => {
   return (
-    <>
-      <span>LOGO</span>
-      <h1>HEADER !!!</h1>
-    </>
+    <div>
+      <Logo/>
+      
+    </div>
   );
 };
 

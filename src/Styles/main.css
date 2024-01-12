@@ -1,0 +1,15 @@
+@import url('../Styles/variables.css');
+
+article{
+    max-width: 800px;
+    width: 100%;
+    height: 75vh;
+    margin: 50px auto auto auto;
+    
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

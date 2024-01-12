@@ -1,0 +1,29 @@
+@import url('./variables.css');
+
+#root{
+  width: 100%;
+}
+body {
+  max-width: 100%;
+  margin: auto;
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: var(--font-body);
+  background-color: var(--background-gray-900);
+  color: var(--lima-25);
+
+  position: relative;
+}
+
+body:hover {
+
+}
+
+/*////////////////////////////////*/
+
+@media screen and (max-width: 768px) {
+}

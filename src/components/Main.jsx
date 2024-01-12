@@ -1,27 +1,43 @@
+import Inicio from "./main/Inicio";
+import Redes from "./main/Redes";
+import SobreMi from "./main/SobreMi";
+import Proyectos from "./main/Proyectos";
+
+import MainNavBar from "./main/MainNavBar";
+
+import '../Styles/main.css';
+import './main/general.css';
+
 const Main = () => {
   return (
     <>
-      <section>
-        <h1> Inicio </h1>
-      </section>
-      <section>
-        <h1> Sobre mí </h1>
-      </section>
-      <section>
-        <h1>Proyectos</h1>
-      </section>
-      <section>
-        <h1>Skills</h1>
-      </section>
-      <section>
-        <h1>Curriculum</h1>
-      </section>
-      <section>
-        <h1>Información de contacto</h1>
-      </section>
-      <section>
-        <h1>Redes</h1>
-      </section>
+      <Inicio />
+      <div id="contenido">
+        <SobreMi/>
+        <Proyectos/>
+        
+        <section id="skils">
+          <article>
+          <h1>Skils</h1>
+
+          </article>
+        </section>
+        <section id="cv">
+          <article>
+
+          <h1>Curriculum</h1>
+          </article>
+
+        </section>
+        <section id="contact-info">
+          <article>
+          <h1>Información de contacto</h1>
+
+          </article>
+        </section>
+        <Redes />
+        <MainNavBar />
+      </div>
     </>
   );
 };

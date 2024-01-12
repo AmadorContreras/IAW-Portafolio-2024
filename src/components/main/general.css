@@ -1,0 +1,24 @@
+@import url('../../Styles/variables.css');
+
+article>h1,  section article>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px;
+}
+
+article>h1 {
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+
+    font-family: var(--fuente-inicio-cursiva);
+    font-size: 4rem;
+
+}
+section article>div {
+    margin: 0;
+    height: 80%;
+    background-color: rgba(165, 42, 42, 0.253);
+}

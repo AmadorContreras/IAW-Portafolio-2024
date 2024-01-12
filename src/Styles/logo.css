@@ -1,0 +1,23 @@
+@import url('./variables.css');
+
+
+.logo{
+    width: var( --size-logo);
+    height: var( --size-logo);
+    background-color: black;
+
+    border: 2px solid var(--lima-400);
+    border-radius: 50%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo img{
+    width: 95%;
+    height: 95%;
+}

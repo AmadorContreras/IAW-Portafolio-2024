@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+:root {
+    --font-body: 'Solway', serif;;
+    --fuente-inicio-cursiva:'Dancing Script', cursive;
+    --font-main-btn:'Bebas Neue', sans-serif;
+    --font-main-btn2: 'Anton', sans-serif;
+
+    /*///////////COLORS/////////////*/
+    --lima-25: #fcfff8;
+    --lima-50: #f3fde8;
+    --lima-100: #e5f9ce;
+    --lima-200: #cbf3a3;
+    --lima-300: #a9e96d;
+    --lima-400: #89db40;
+    --lima-500: #6bc322;
+    --lima-600: #4f9917;
+    --lima-700: #3e7516;
+    --lima-800: #335d17;
+    --lima-900: #2e4f18;
+    --lima-950: #152b08;
+    --lima-1000: #070f02;
+    
+    --background-gray-300: #b6b6b6;
+    --background-gray-600: #6a6b69;
+    --background-gray-900: #3c3d3b;
+    --background-gray-1000: #252525;
+
+    /*//////////////////////////*/
+    --size-logo: 135px
+
+  }

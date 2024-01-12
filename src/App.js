@@ -1,9 +1,10 @@
+import React from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Page from './components/Page'
 import Main from './components/Main'
 
+import Page from './routes/Page'
 import About from './routes/About'
-import Projects from './routes/Projects'
+import Projects from './routes/Newsletter '
 
 import './Styles/App.css'
 
@@ -14,7 +15,7 @@ function App() {
         <Route path="/" element={<Page/>}>
           <Route index element={<Main/>}/>
           <Route path='about' element={<About/>}/>
-          <Route path='projects' element={<Projects/>}/>
+          <Route path='newsletter' element={<Projects/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
