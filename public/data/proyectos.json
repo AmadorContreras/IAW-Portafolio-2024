@@ -24,29 +24,31 @@
     "link": "https://randime.netlify.app/"
   },
   {
-    "title": "DRESS",
-    "desc":"Tienda de ropa online",
-    "fondo": "img/dress-web.png",
+    "title": "Horno de Ana",
+    "desc":"Tienda online",
+    "fondo": "img/imagen2.jpg",
     "iconos": [
       "img/icons/HTML.png",
       "img/icons/CSS.png",
       "img/icons/js.png",
       "img/icons/react.webp",
-      "img/icons/nodejs.jpg"
+      "img/icons/nodejs.jpg",
+      "img/icons/mongoDB.png",
+      "img/icons/mongoose.png",
+      "img/icons/github.png"
     ],
-    "link": "https://examen-eva1-acl.netlify.app/"
+    "link": "https://horno-de-ana.netlify.app/"
   },
   {
-    "title": "DRESS",
-    "desc":"Tienda de ropa online",
-    "fondo": "img/dress-web.png",
+    "title": "Sesiones",
+    "desc":"Gestor de usuarios",
+    "fondo": "img/sesion.png",
     "iconos": [
+      "img/icons/php.png",
       "img/icons/HTML.png",
       "img/icons/CSS.png",
-      "img/icons/js.png",
-      "img/icons/react.webp",
-      "img/icons/nodejs.jpg"
+      "img/icons/js.png"
     ],
-    "link": "https://examen-eva1-acl.netlify.app/"
+    "link": "https://github.com/AmadorContreras/IAW-PHP-SESION"
   }
 ]

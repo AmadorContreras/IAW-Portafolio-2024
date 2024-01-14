@@ -10,8 +10,8 @@ const Inicio = () => {
           Soy <span> Amador</span>.
         </h2>
         <p>
-          Estudiante de Administrador en Sistemas Microinformáticos y Redes.
-          {<br />}En el desarrollo web destaco en el frontend, pero disfruto
+          Estudiante de {<br />}Administración en Sistemas informáticos y Redes.
+          {<br />}En el desarrollo web, destaco en el frontend, pero disfruto
           explorando el backend.{<br />}
           Soy fotógrafo profesional e intento siempre juntar mis dos pasiones.
         </p>

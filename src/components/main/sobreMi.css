@@ -3,3 +3,9 @@
 #sobre-mi {
     margin-top: 15px;
 }
+.txtSobreMi{
+    width: 90%;
+}
+#sobre-mi p {
+    font-size: 1.3rem;
+}

@@ -4,7 +4,7 @@ import Main from './components/Main'
 
 import Page from './routes/Page'
 import Contacto from './routes/Contacto'
-import Projects from './routes/Newsletter '
+import Projects from './routes/Newsletter'
 
 import './Styles/App.css'
 
