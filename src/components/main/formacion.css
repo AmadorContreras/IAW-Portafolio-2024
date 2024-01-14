@@ -1,0 +1,64 @@
+@import url('../../Styles/variables.css');
+
+#formacion {
+    margin: 25px auto;
+    width: 100%;
+    background-color: var(--lima-800); 
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+}
+
+#formacion article {
+    margin: 25px 0;
+
+    width: 100%;
+}
+
+#formacion article >h1, .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    
+}
+#formacion article .cardFormacion {
+    /* border: 2px solid #0019fc;    */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+#formacion article .cardFormacion div{
+    width: 370px;
+    height: auto;
+    padding-bottom: 25px;
+    margin-bottom: 3%;
+    /* border: 1px solid var(--lima-400);*/
+    background-color: var(--background-gray-1000);
+}
+#formacion article .cardFormacion div h1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+#formacion article .cardFormacion div h3{
+    font-size: 1.3rem;
+    color: var(--lima-400);
+}
+#formacion article .cardFormacion div p{
+    font-size: 1.1rem;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.box1 {
+    border-bottom-left-radius: 10px;
+    border-right: 2px solid var(--lima-400);
+    box-shadow: 0px 0px 44px -1px rgba(0,0,0,0.24);
+    
+}
+.box2 {
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 44px -1px rgba(0,0,0,0.24);
+}
+

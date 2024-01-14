@@ -24,10 +24,9 @@ const MainNavBar = () => {
       <ScrollNavLink id="inicio" name="Home" />
       <ScrollNavLink id="sobre-mi" name="Sobre mí"/>
       <ScrollNavLink id="proyectos" name="Proyectos" />
-      <ScrollNavLink id="skils" name="Skils" />
-      <ScrollNavLink id="cv" name="Curriculum" />
-      <ScrollNavLink id="contact-info" name="Información de contacto" />
-      <ScrollNavLink id="redes" name="Redes" />
+      <ScrollNavLink id="skills" name="Skills" />
+      <ScrollNavLink id="formacion" name="Formación" />
+      {/* <ScrollNavLink id="contact-info" name="Información de contacto" /> */}
     </div>
   </>
   );

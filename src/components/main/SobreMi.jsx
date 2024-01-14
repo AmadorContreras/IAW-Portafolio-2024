@@ -1,3 +1,4 @@
+import RedesLinksIcons from '../RedesLinksIcons'
 import './sobreMi.css';
 const SobreMi = () => {
     return (
@@ -5,7 +6,11 @@ const SobreMi = () => {
           <article>
           <h1> Sobre mí </h1>
           <div className="infoSobreMi">
-            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus totam a reiciendis voluptatem dolorum rerum ea perferendis, et quaerat corrupti iste obcaecati ut error atque vero illum possimus consequuntur rem.</p></div>
+            <div>
+              <p>Desde mi amor inicial por la fotografía, he explorado el vasto territorio de la informática, fusionando estas dos pasiones en cada captura y línea de código.</p>
+              <p>
+En mi mundo, la fotografía y la informática se entrelazan.</p>
+              </div>
             <div>
                 <ul>
                     <li>1</li>
@@ -16,6 +21,7 @@ const SobreMi = () => {
                 </ul>
             </div>
           </div>
+          <RedesLinksIcons/>
           </article>
         </section>
     );

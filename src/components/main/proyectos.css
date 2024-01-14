@@ -1,95 +1,97 @@
-@import url('../../Styles/variables.css');
-/* .ejemplosProyectos{
-    width: 100%;
+@import url("../../Styles/variables.css");
+
+#proyectos, #proyectos article{
+  height: auto;
+}
+#proyectos{
+  margin-bottom: 50px;
+  
+  background: var(--lima-800); /* Color de fondo deseado */
+  position: relative;
+  box-shadow: 0px 0px 44px -1px rgba(0,0,0,0.24);
+  clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
 
 }
-.ejemplosProyectos div{
-    width: 95%;
-    height: 95%;
-    margin: auto;
-    display: grid;
-    grid-template-areas:
-    "rect1 rect2"
-    "rect3 rect4";
-    grid-gap: 10px; 
-    
+#proyectos article{
+  margin: 100px auto;
 }
-.rect1, .rect2, .rect3, .rect4 {
-    background-color: #ffee004d;
-    border-radius: 15px;
-  }
-
-
-.ejemProyecCuadri > div{
-    transition: transform 0.3s; 
-
-}
-.ejemProyecCuadri > div:hover{
-    transform: scale(1.05);
-} */
 
 
 .ejemplosProyectos {
-    width: 100%;
-  }
-  
-  .ejemplosProyectos .ejemProyecCuadri {
-    width: 95%;
-    height: 95%;
-    margin: auto;
-    display: grid;
-    grid-template-areas:
-      "rect1 rect2"
-      "rect3 rect4";
-    grid-gap: 10px;
-  }
-  
-  .rect {
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    border-radius: 15px;
-    position: relative;
-  }
-  
-  .rect1 {
-    background-color: #ffee004d;
-    /* background-image: url('ruta-a-tu-imagen1.jpg'); */
-  }
-  
-  .rect2 {
-    background-color: #ffee004d;
-    /* background-image: url('ruta-a-tu-imagen2.jpg'); */
-  }
-  
-  /* Agrega estilos comunes para rect3 y rect4 según sea necesario */
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
+  margin-top: 35px;
+  width: 100%;
+}
+
+.ejemplosProyectos .ejemProyecCuadri {
+  width: 95%;
+  height: 1250px;
+  margin: auto;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(1, 2fr); /* Cambiado a dos columnas */
+}
+.ejemplosProyectos .ejemProyecCuadri a{
+  padding: 10px;
+  z-index: 2;
+}
+.rect {
+    border: 1px solid var(--lima-400);
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s, filter 0.3s;
-    filter: blur(0);
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
   }
   
-  .rect:hover .overlay {
-    opacity: 1;
-    filter: blur(5px);
+  .fondo {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s; /* Añadir transición al efecto de zoom */
   }
   
-  .iconos {
-    text-align: center;
+  .rect:hover .fondo {
+    transform: scale(1.01);
+}
+.rect:hover{
+      box-shadow: 0px 0px 30px -17px var(--lima-400);
+
   }
-  
-  .iconos img {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-  }
+.iconos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.692);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.rect:hover .iconos {
+  opacity: 1;
+}
+
+.iconos h2 {
+  font-family: var(--fuente-inicio-cursiva);
+  color: var(--lima-400);
+  font-size: 4rem;
+  margin: 0;
+  filter: drop-shadow(0px 0px 13px #000000);
+}
+.iconos h3, .iconos p {
+  color: var(--lima-25);
+  font-size: 2rem;
+  margin: 15px auto 0;
+}
+
+.iconos img {
+  width: auto;
+  height: 50px;
+  margin: 5px;
+}

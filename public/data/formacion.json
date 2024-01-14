@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "card1": [
+      {
+        "titulo": "Laboratorio de imagen",
+        "IES":"Ies Juniper Serra",
+        "desc1": "2 años de estudios de formación de grado medio en laboratorio de imagen e imagen digital"
+      }
+    ],
+    "card2": [
+      {
+        "titulo": "Practicas",
+        "local":"Kamal Fotografía",
+        "desc1": "3 meses de practicas en la tienda Kamal Fotografía."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "card1": [
+      {
+        "titulo": "Sistemas Microinformáticos y Redes",
+        "IES":"Ies Emili Darder",
+        "desc1": "2 años de estudios de formación de grado medio en Sistemas Microinformáticos y Redes"
+      }
+    ],
+    "card2": [
+      {
+        "titulo": "Practicas",
+        "local":"Soluciones informáticas ICONO",
+        "desc1": "3 meses de practicas en la tienda de Soluciones informáticas ICONO."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "card1": [
+      {
+        "titulo": "Administración de Sistemas y Redes",
+        "IES":"Ies Emili Darder",
+        "desc1": "2 años de estudios de formación de grado superior en Administración de Sistemas y Redes"
+      }
+    ],
+    "card2": [
+      {
+        "titulo": "Practicas",
+        "local":"...",
+        "desc1": "..."
+      }
+    ]
+  }
+]

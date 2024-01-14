@@ -1,0 +1,52 @@
+[
+  {
+    "title": "DRESS",
+    "desc":"Tienda de ropa online",
+    "fondo": "img/dress-web.png",
+    "iconos": [
+      "img/icons/HTML.png",
+      "img/icons/CSS.png",
+      "img/icons/js.png",
+      "img/icons/react.webp",
+      "img/icons/nodejs.jpg"
+    ],
+    "link": "https://examen-eva1-acl.netlify.app/"
+  },
+  {
+    "title": "Randime",
+    "desc":"Personajes aleatorios del anime",
+    "fondo": "img/randime.png",
+    "iconos": [
+      "img/icons/HTML.png",
+      "img/icons/CSS.png",
+      "img/icons/js.png"
+    ],
+    "link": "https://randime.netlify.app/"
+  },
+  {
+    "title": "DRESS",
+    "desc":"Tienda de ropa online",
+    "fondo": "img/dress-web.png",
+    "iconos": [
+      "img/icons/HTML.png",
+      "img/icons/CSS.png",
+      "img/icons/js.png",
+      "img/icons/react.webp",
+      "img/icons/nodejs.jpg"
+    ],
+    "link": "https://examen-eva1-acl.netlify.app/"
+  },
+  {
+    "title": "DRESS",
+    "desc":"Tienda de ropa online",
+    "fondo": "img/dress-web.png",
+    "iconos": [
+      "img/icons/HTML.png",
+      "img/icons/CSS.png",
+      "img/icons/js.png",
+      "img/icons/react.webp",
+      "img/icons/nodejs.jpg"
+    ],
+    "link": "https://examen-eva1-acl.netlify.app/"
+  }
+]

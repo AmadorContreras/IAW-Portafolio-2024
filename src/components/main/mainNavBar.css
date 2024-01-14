@@ -6,7 +6,7 @@
 }
 .MainNavBar {
     opacity: 0; /* Inicialmente transparente */
-    pointer-events: none; /* Oculta los eventos del mouse cuando es invisible */
+    pointer-events: none; 
     display: flex;
     flex-direction: column;
     width: 150px;
@@ -20,6 +20,7 @@
     border-radius: 15px;
     border: 1px solid rgba(134, 252, 0, 0.452);
     background-color: var(--background-gray-900);
+    z-index: 99;
 }
 
 #contenido:hover .MainNavBar {

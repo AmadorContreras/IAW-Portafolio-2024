@@ -13,8 +13,8 @@ const Page = () => {
         <Header />
         <nav>
           <NavLink to="/"> Home </NavLink>
-          <NavLink to="/about"> About </NavLink>
           <NavLink to="/newsletter"> Newsletter </NavLink>
+          <NavLink to="/contacto"> contacto </NavLink>
         </nav>
       </header>
       <main>

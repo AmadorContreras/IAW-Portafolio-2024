@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Tecnología",
+    "subTitle":"Del mundo de la programación que uso",
+    "icons": [
+      "img/icons/HTML.png",
+      "img/icons/CSS.png",
+      "img/icons/js.png",
+      "img/icons/react.webp",
+      "img/icons/nodejs.jpg",
+      "img/icons/Npm.png",
+      "img/icons/nvm.png",
+      "img/icons/mongodb.png",
+      "img/icons/express-js.png",
+      "img/icons/mongoose.png",
+      "img/icons/php.png",
+      "img/icons/mysql.png",
+      "img/icons/github.png"
+
+    ] 
+  },
+  {
+    "title": "Otros",
+    "subTitle":"Softwares que uso",
+    "icons": [
+      "img/icons/VSC.png",
+      "img/icons/docker.png",
+      "img/icons/Virtualbox.png",
+      "img/icons/mysqlworkbench.png",
+      "img/icons/Oracle_SQL_Developer_logo.svg"
+    ] 
+  },
+  {
+    "title": "Fotografía y video",
+    "subTitle":"Software que domino del mundo audiovisual",
+    "icons": [
+      "img/icons/Lightroom.png",
+      "img/icons/Photoshop.png",
+      "img/icons/Premiere.png",
+      "img/icons/Encoder.png"
+    ] 
+  }
+]

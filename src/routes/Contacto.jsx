@@ -1,4 +1,4 @@
-const About = () => {
+const Contacto = () => {
   return (
     <section>
       <h1>ABOUT !!!</h1>
@@ -6,4 +6,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contacto;
